@@ -37,9 +37,9 @@ const Footer = () => {
                 <p class="grey light">© 2021 The Design Shop</p>
                 <article>
                     <ul>
-                        <li><a href="https://stefftraenkler.github.io/Project_DesignShop_mediaQueries/" target="_blank" rel='noopener noreferrer'></a>Disclaimer</li>
-                        <li><a href="https://stefftraenkler.github.io/Project_DesignShop_mediaQueries/" target='_blank' rel='noopener noreferrer'></a>Shop</li>
-                        <li><a href="https://stefftraenkler.github.io/Project_DesignShop_mediaQueries/" target='_blank' rel='noopener noreferrer'></a>Weekly Pics</li>
+                        <li><a href="https://stefftraenkler.github.io/Project_DesignShop_mediaQueries/" target="_blank" rel='noopener noreferrer'>Disclaimer</a></li>
+                        <li><a href="https://stefftraenkler.github.io/Project_DesignShop_mediaQueries/" target='_blank' rel='noopener noreferrer'>Shop</a></li>
+                        <li><a href="https://stefftraenkler.github.io/Project_DesignShop_mediaQueries/" target='_blank' rel='noopener noreferrer'>Weekly Pics</a></li>
                     </ul>
                     <p class="light">Made/Curated by <a href="https://stefftraenkler.github.io/Project_DesignShop_mediaQueries/" target='_blank' rel='noopener noreferrer'>Ruby Bacanovic</a></p>
                 </article>
