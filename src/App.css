@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@font-face {
+    font-family: 'Karla, bold';
+    src: url(../public/fonts/Karla/static/Karla-Bold.ttf);
+}
+@font-face {
+    font-family: 'Karla, italic regular';
+    src: url(../public/fonts/Karla/static/Karla-Italic.ttf);
+}
+@font-face {
+    font-family: 'Karla, medium';
+    src: url(../public/fonts/Karla/static/Karla-Medium.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    margin: 3rem 3rem 1rem 3rem;
+    font-family: 'Karla', sans-serif;
+    color: #323A45;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.grey{
+    color: #848484;
+    font-size: 1rem;
+}
+.light, .grey{
+    font-family: 'Karla', sans-serif;
+}
+.italic{
+    font-family: 'Karla, italic regular';
+}
+.fas{
+    color: #848484;
+    font-size: 0.5rem;
+}
+a{
+    color: unset;
+    text-decoration: unset;
+    font-family: 'Karla, bold'; 
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header nav{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap:40px;
+    text-align: right;
+}
+ul{
+  display: flex;
+  gap:20px;
+    list-style: none;
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.712);
+}
+li{
+    padding-bottom: 50px;
+}
+label{
+    font-size: 3rem;
+    cursor: pointer;
+}
+#toggle{
+    display: none;
+}
+/* main */
+img{
+    width: 100%;
+    transition: 1s;
+}
+img:hover{
+    opacity: 0.2;
+}
+h2{
+    font-family: 'Karla, medium';
+}
+main article:nth-of-type(1){
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+main article:nth-of-type(2){
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+main article figure{
+    margin-top: 30px;
+}
+main article figure p{
+    margin-top: 20px;
+}
+p{
+    font-size: 1.2rem;
+}
+/* footer */
+footer section:nth-of-type(1){
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+footer section:nth-of-type(2){
+  display: flex;
+  justify-content: space-between;
+}
+footer section article{
+    margin: 25% auto;
+}
+footer section article h2{
+    margin-bottom: 60px;
+}
+footer section article p{
+    margin-top: 20px;
+}
+
+footer section:nth-of-type(2) article{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 100px;
+  margin: 0;
+  padding: 0;
 }
-
-.App-link {
-  color: #61dafb;
+footer section:nth-of-type(2) article p{
+  margin: 1.5% 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media screen and (min-width: 769px) {
+    label{
+        display: none;
+    }
 }
