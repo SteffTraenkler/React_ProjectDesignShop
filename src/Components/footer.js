@@ -23,10 +23,10 @@ const Footer = () => {
                 <article>
                     <h2>Follow us</h2>
                     <ul>
-                        <li><a class="socials light" href="instagram.com" target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a class="socials light" href="https://www.pinterest.de/" target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-pinterest-p"></i></a></li>
-                        <li><a class="socials light" href="twitter.com" target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a class="socials light" href="facebook.com" target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a class="socials light" href="instagram.com" target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-instagram"></i> </a></li>
+                        <li><a class="socials light" href="https://www.pinterest.de/" target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-pinterest-p"></i> </a></li>
+                        <li><a class="socials light" href="twitter.com" target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-twitter"></i> </a></li>
+                        <li><a class="socials light" href="facebook.com" target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-facebook"></i> </a></li>
 
 
 
